@@ -1,0 +1,627 @@
+
+
+@font-face {
+    font-family: "HelveticaNeueCyr-Light";
+    src: url("../fonts/HelveticaNeueCyr-Light.ttf");
+}
+
+body, .cocials, .about, .header, .main, .features, .questions, .reviews, .contacts, {
+
+width: 100%; 
+height: 0 auto;
+
+}
+
+a {
+  color: #06bac5;
+  text-decoration: none;}
+a:hover {
+  color: #eb477b;
+  text-decoration: none;}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #eb477b;
+}
+
+.cocials li {
+  margin: 20px;
+}
+
+
+.vk{
+background-image: url(img/vk-gray.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.vk:hover {
+background-image: url(img/vk-white.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.fb{
+background-image: url(img/fb-gray.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.fb:hover {
+background-image: url(img/fb-white.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.inst{
+background-image: url(img/inst-gray.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.inst:hover {
+background-image: url(img/inst-white.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+
+.tw{
+background-image: url(img/tw-gray.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+.tw:hover {
+background-image: url(img/tw-white.png);
+display: block;
+width: 40px;
+height: 40px;
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.elipse {
+width: 7px;
+height: 7px;
+border-radius: 4px;
+background-color: #06bac5;
+}
+
+
+.main {
+font-size: 55px;
+line-height: 72px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Philosopher";
+text-align: right;
+}
+
+.main h2{
+
+font-size: 52px;
+line-height: 72px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Philosopher";
+text-align: right;
+}
+
+.main h4{
+font-size: 24px;
+line-height: 24px;
+color: #005c7b;
+font-weight: 500;
+font-family: "Roboto";
+text-align: right;
+}
+
+.main_button {
+width: 310px;
+height: 60px;
+font-size: 30px;
+line-height: 30px;
+color: #eeeeed;
+font-weight: 400;
+font-family: "Roboto";
+text-align: right;
+border-radius: 30px;
+background-color: #005c7b;
+cursor: pointer;
+}
+
+.main_button:hover {
+color: white;
+  background: #eb477b;
+}
+
+.about {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: center;
+}
+
+
+.about h2 {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: right;}
+
+.about h4 {
+font-size: 30px;
+line-height: 30px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Philosopher";
+text-align: center;
+}
+
+.about h5 {
+/*width: 255px;*/
+height: 81px;
+font-size: 18px;
+line-height: 30px;
+color: #008daa;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+
+
+.about p {
+font-size: 24px;
+line-height: 30px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Roboto";
+text-align: justify;
+}
+
+
+
+.features {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: center;
+background-color: #000;
+}
+
+.features h2 {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: right;}
+
+
+.features h3 {
+font-size: 36px;
+line-height: 80px;
+text-decoration: underline;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: center;
+}
+
+.features li {
+font-size: 30px;
+line-height: 80px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Font Awesome 5 Free";
+text-align: left;
+list-style-type: none; /* Убираем маркеры */
+}
+
+.features p {
+font-size: 24px;
+line-height: 30px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;}
+
+
+
+.questions {
+  color: #005c7b;
+  font-family: "Philosopher";
+  text-align: justify;
+}
+
+
+.questions h2 {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: justify;}
+
+.questions p {
+font-size: 18px;
+line-height: 37px;
+color: #06bac5;
+font-weight: 400;
+font-family: "Roboto";
+text-align: justify;}
+
+.questions li {
+list-style-type: none; /* Убираем маркеры */
+}
+
+.questions h3, h3 {
+  text-align: center;
+}
+ 
+.svg {
+ transform: rotate 90
+}
+
+
+
+/*
+
+.cursive p {
+height: 77px;
+font-size: 14px;
+line-height: 24px;
+color: #005c7d;
+font-weight: 400;
+font-style: italic;
+font-family: "Roboto";
+text-align: left;
+}
+
+.cursive h5 {
+font-size: 18px;
+color: #008daa;
+font-family: "Font Awesome";
+text-align: left;
+}
+
+*/
+
+.reviews {
+height: 678px;    
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: center;}
+
+
+
+.reviews h2 {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: right;}
+
+
+
+.contacts {
+font-size: 29px;
+line-height: 150px;
+color: #008daa;
+font-weight: 400;
+font-family: "Philosopher";
+text-align: center;
+}
+
+.contacts p {
+font-size: 18px;
+line-height: 37px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;}
+
+
+
+.contacts h2 {
+font-size: 60px;
+line-height: 60px;
+color: #005c7b;
+font-weight: 700;
+font-family: "Philosopher";
+text-align: justify;}
+
+.contacts img {
+  vertical-align: middle;
+  border-style: none;
+  padding: 10px;
+  margin: 15px;
+}
+ 
+
+.vk1{
+background-image: url(img/vk-blue.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.vk1:hover {
+background-image: url(img/vk-pink.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.fb1{
+background-image: url(img/fb-blue.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.fb1:hover {
+background-image: url(img/fb-pink.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.inst1{
+background-image: url(img/inst-blue.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.inst1:hover {
+background-image: url(img/inst-pink.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+
+.tw1{
+background-image: url(img/tw-blue.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+.tw1:hover {
+background-image: url(img/tw-pink.png);
+display: block;
+width: 50px;
+height: 50px;
+background-size: cover;
+}
+
+
+.contacts li {
+list-style-type: none; /* Убираем маркеры */
+margin: 25px;
+}
+
+
+
+
+
+.nav-link{
+ margin-right: 1em !important;
+ color: #005c7b;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.reviews p {
+font-size: 18px;
+line-height: 30px;
+color: #005c7b;
+font-weight: 400;
+font-family: "Roboto";
+text-align: justify;}
+
+
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 330px;
+}
+.carousel-caption{
+  color: #fff;
+  top: 50%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+navbar-nav {
+font-size: 18px;
+line-height: 24px;
+color: #06bac5;
+font-weight: 400;
+font-family: "Roboto";
+text-align: left;
+}
+
+
+
+
+.navbar{
+/*width: 1920px; */
+height: 100px;
+filter: drop-shadow(2.5px 4.33px 2.5px rgba(0,0,0,0.4));
+background-color: #008daa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #06bac5;
+}
+
+.navbar2 {
+font-size: 18px;
+line-height: 24px;
+color: #06bac5;
+font-weight: 400;
+font-family: "Roboto";
+text-align: left;
+}
+
+.navbar2:hover {
+font-size: 18px;
+line-height: 24px;
+color: #eb477b;
+font-weight: 400;
+font-family: "Roboto";
+text-align: left;
+}
+
+.nav-item {
+font-size: 18px;
+line-height: 24px;
+color: #06bac5;
+font-weight: 400;
+font-family: "Roboto";
+text-align: left;
+
+}
+
+.navbar-brand{
+font-size: 24px;
+line-height: 24px;
+text-decoration: underline;
+color: #d4d0c8;
+font-weight: 400;
+font-family: "Roboto";
+text-align: left;
+
+}
+
+
+
+
+
+
+
+
+.button_normal{
+width: 315px;
+height: 60px;
+font-size: 30px;
+line-height: 30px;
+color: #eeeeed;
+font-weight: 400;
+font-family: "Roboto";
+text-align: right;
+}
+
+
+
+col-md-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+.footer p {
+font-size: 18px;
+line-height: 30px;
+color: #fff;
+font-weight: 400;
+font-family: "Roboto";
+text-align: justify;
+}
+
+.footer {
+background-color: #008daa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
